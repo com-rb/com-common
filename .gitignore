@@ -17,5 +17,5 @@ tmp
 _yardoc
 doc/
 
-# RSpec
+# RSpec file to presist failures
 spec/examples.txt

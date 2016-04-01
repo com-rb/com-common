@@ -1,11 +1,20 @@
+PATH
+  remote: .
+  specs:
+    rb.com-common (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
+    rake (11.1.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 1.11.2)
+  rake (~> 11.1)
+  rb.com-common!
 
 BUNDLED WITH
    1.11.2

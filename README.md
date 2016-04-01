@@ -154,7 +154,29 @@ to create a git tag for the version,
 
 ## Testing
 
-TBD:
+There are different ways to run tests. You can use the one which you used to.
+
+```bash
+$ rake # uses default rake task which is spec
+```
+
+or
+
+```bash
+$ rspec
+```
+
+or
+
+```bash
+$ rake spec
+```
+
+or
+
+```bash
+$ rspec spec/
+```
 
 ## Contributing
 

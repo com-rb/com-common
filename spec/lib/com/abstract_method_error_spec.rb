@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 ::RSpec.describe ::Com::AbstractMethodError do
   describe ".method_not_overridden_error" do
     let(:klass)       { SomeArbitraryClass }

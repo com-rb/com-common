@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 ::RSpec.describe ::Com::Common do
   it "has a version number" do
     expect(::Com::Common::VERSION).not_to be nil

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Purpose: mixin
 #
 # This module should be mixed into all exceptions of ::RuntimeError type.

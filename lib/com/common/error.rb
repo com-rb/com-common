@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Purpose: mixin
 #
 # @see ::Com::Error

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Represents errors related to "abstract" methods.
 #
 # Despite Ruby does not have

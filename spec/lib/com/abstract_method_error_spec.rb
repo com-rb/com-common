@@ -1,4 +1,4 @@
-::RSpec.describe ::Rbcom::AbstractMethodError do
+::RSpec.describe ::Com::AbstractMethodError do
   describe ".method_not_overridden_error" do
     let(:klass)       { SomeArbitraryClass }
     let(:method_name) { "do_important_job" }
@@ -13,7 +13,7 @@
 
 
     it { expect(subject).to be_instance_of(described_class)        }
-    it { expect(subject).to be_kind_of(::Rbcom::StandardError)     }
+    it { expect(subject).to be_kind_of(::Com::StandardError)       }
     it { expect(subject).to be_kind_of(StandardError)              }
     it { expect(subject.message).to eq(expected_exception_message) }
   end # .method_not_overridden_error

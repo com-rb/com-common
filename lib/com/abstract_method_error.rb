@@ -1,12 +1,19 @@
-class ::Rbcom::AbstractMethodError < ::StandardError
-  include ::Rbcom::StandardError
+# Represents errors related to "abstract" methods.
+#
+# Despite Ruby does not have
+# conception of abstract methods usually developers do want to force concrete
+# classes to provide implementation for the method called from base class.
+# In that case called method with assumed obligatory implementation in
+# concrete classes can be desided as abstract method.
+class ::Com::AbstractMethodError < ::StandardError
+  include ::Com::StandardError
 
 
   # @param klass       [Class]  class instance in which method had to
   #   override default implementaion
   # @param method_name [String] name of the method which have to be overridden
   #
-  # @return [::Rbcom::AbstractMethodError]
+  # @return [::Com::AbstractMethodError]
   #
   # @example
   #
@@ -21,10 +28,10 @@ class ::Rbcom::AbstractMethodError < ::StandardError
   #
   #     # @abstract
   #     #
-  #     # @raise ::Rbcom::AbstractMethodError when actual implementation has not
+  #     # @raise ::Com::AbstractMethodError when actual implementation has not
   #     #   been provided in concrete class
   #     def very_important_job
-  #       raise ::Rbcom::AbstractMethodError.method_not_overridden_error(self.class, __method__)
+  #       raise ::Com::AbstractMethodError.method_not_overridden_error(self.class, __method__)
   #     end
   #   end
   #
@@ -42,7 +49,7 @@ class ::Rbcom::AbstractMethodError < ::StandardError
   #   concreate_instance.call
   #
   #   # Exact exception will look like
-  #   # Rbcom::AbstractMethodError: Method 'very_important_job' has to be overridden in 'Concrete' class.
+  #   # Com::AbstractMethodError: Method 'very_important_job' has to be overridden in 'Concrete' class.
   #   # 	       from (irb):14:in `very_important_job'
   #   # 	       from (irb):6:in `call'
   #   # 	       from (irb):29

@@ -1,5 +1,3 @@
-com-common
-=======
 # ::Com, ::Com::Common
 
 Common parts of well decoupled [Ruby](https://www.ruby-lang.org/) libraries.
@@ -80,7 +78,7 @@ For better understanding of exceptions in [Ruby](https://www.ruby-lang.org/) see
 
 This library provides following modules and classes for exceptions.
 Most of modules are intended for tagging exceptions raised
-from [com-rb libraries](https://github.com/rbcom).
+from [com-rb libraries](https://github.com/com-rb).
 
 * [`::Com::StandartError`](#comstandarderror)
 * [`::Com::Error`](#comerror)
@@ -146,7 +144,7 @@ use the code located in this directory, ignoring other installed copies of this 
 To install this gem onto your local machine, run
 [`bundle exec rake install`](https://github.com/bundler/bundler/blob/master/lib/bundler/gem_helper.rb#L43).
 To release a new version, update the version number in
-[`lib/rbcom/common/version.rb`](lib/rbcom/common/version.rb),
+[`lib/com/common/version.rb`](lib/com/common/version.rb),
 and then run
 [`bundle exec rake release`](https://github.com/bundler/bundler/blob/master/lib/bundler/gem_helper.rb#L53)
 to create a git tag for the version,
@@ -180,7 +178,7 @@ $ rspec spec/
 
 ## Contributing
 
-1. Clone it: `git clone git@github.com:rbcom/rbcom-common.git`
+1. Clone it: `git clone git@github.com:com-rb/com-common.git`
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Ensure all [tests pass successfully](#testing)

@@ -1,12 +1,12 @@
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-require "rbcom/common/version"
+require "com/common/version"
 
 
 Gem::Specification.new do |spec|
   spec.name          = "rb.com-common"
-  spec.version       = ::Rbcom::Common::VERSION
+  spec.version       = ::Com::Common::VERSION
   spec.authors       = ["Zeke Fast"]
   spec.email         = ["zekefast@gmail.com"]
 
@@ -14,8 +14,8 @@ Gem::Specification.new do |spec|
     spec.metadata["allowed_push_host"] = ""
   end
 
-  spec.summary       = %q{Rbcom common library classes.}
-  spec.homepage      = "https://github.com/rbcom/rbcom-common"
+  spec.summary       = %q{com-rb common library classes.}
+  spec.homepage      = "https://github.com/com/com-common"
   spec.license       = "MIT"
 
   spec.required_ruby_version = "~> 2.3.0"

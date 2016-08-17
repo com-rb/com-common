@@ -6,6 +6,6 @@
 # during runtime, unexpected data, catched and reraised exceptions from used
 # libraries, etc.
 #
-# @see ::Rbcom::StandardError
-module ::Rbcom::Error
+# @see ::Com::StandardError
+module ::Com::Error
 end

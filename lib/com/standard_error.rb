@@ -8,6 +8,6 @@
 # In most cases you can suppose that errors which include this module would be
 # catched on compilation if Ruby would be statically typed language.
 #
-# @see ::Rbcom::Error
-module ::Rbcom::StandardError
+# @see ::Com::Error
+module ::Com::StandardError
 end

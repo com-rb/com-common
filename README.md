@@ -101,7 +101,7 @@ would be [statically typed language](https://en.wikipedia.org/wiki/Type_system#S
 
 The module [`::Com::Error`](lib/com/error.rb) supposed to be mixed into
 all exceptions of [`::RuntimeError`](http://ruby-doc.org/core-2.3.1/RuntimeError.html) type.
-In most situation those error should be catched and/or logged. Usually they
+In most situations those error should be catched and/or logged. Usually they
 signals about incorrect way of execution which is based on data received
 during runtime, unexpected data, catched and reraised exceptions from used
 libraries, etc.

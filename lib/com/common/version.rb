@@ -3,6 +3,10 @@
 # GOTCHA: this file is an exclusion from rule or plain module definition, because
 #   it is used in com-common.gemspec file where all root namespaces
 #   do not loaded. So, they have to be defined hierarchically.
+#
+# Purpose: namespace
+#
+# @see ::Com::Common
 module ::Com
   module Common
     # Library version.

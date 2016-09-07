@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-# Namespace for Com set of libraries.
-#
 # Purpose: namespace
+#
+# Namespace for Com set of libraries.
 module ::Com
 end
 

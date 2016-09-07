@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rb.com-common (0.1.0)
+    com-common (0.1.1)
 
 GEM
   remote: https://rubygems.org/
@@ -27,8 +27,8 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.12.5)
+  com-common!
   rake (~> 11.2)
-  rb.com-common!
   rspec (~> 3.5)
 
 BUNDLED WITH

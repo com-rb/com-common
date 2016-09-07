@@ -7,7 +7,7 @@ require "com/common/version"
 
 
 Gem::Specification.new do |spec|
-  spec.name          = "rb.com-common"
+  spec.name          = "com-common"
   spec.version       = ::Com::Common::VERSION
   spec.authors       = ["Zeke Fast"]
   spec.email         = ["zekefast@gmail.com"]

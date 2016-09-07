@@ -12,10 +12,6 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Zeke Fast"]
   spec.email         = ["zekefast@gmail.com"]
 
-  if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = ""
-  end
-
   spec.summary       = %q{com-rb common library classes.}
   spec.homepage      = "https://github.com/com/com-common"
   spec.license       = "MIT"

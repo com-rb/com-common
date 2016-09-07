@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["zekefast@gmail.com"]
 
   spec.summary       = %q{com-rb common library classes.}
-  spec.homepage      = "https://github.com/com/com-common"
+  spec.homepage      = "https://github.com/com-rb/com-common"
   spec.license       = "MIT"
 
   spec.required_ruby_version = "~> 2.3.1"

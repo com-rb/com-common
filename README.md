@@ -162,7 +162,7 @@ In that case called method with assumed obligatory implementation in
 can be desided as [abstract method](https://en.wikipedia.org/wiki/Method_%28computer_programming%29#Abstract_methods).*
 
 For usage examples, see an example for
-[`::Com::AbstractMethodError.method_not_overridden_error` method](lib/com/abstract_method_error.rb#L11)
+[`::Com::AbstractMethodError.method_not_overridden_error` method](lib/com/abstract_method_error.rb#L20).
 
 *__Note:__ sometimes
 [`NotImplementedError`](http://ruby-doc.org/core-2.3.1/NotImplementedError.html)

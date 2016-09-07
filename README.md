@@ -67,7 +67,37 @@ See also [official documentation on rubygems about adding runtime dependencies](
 
 ### Development
 
-*__TBD:__*
+While developming new library which depends on changes to [`com-common`](https://github.com/com-rb/com-common)
+you likely want to test you changes to [`com-common`](https://github.com/com-rb/com-common)
+with your own library.
+
+To do this add runtime dependency in your library's [`gemspec`](http://guides.rubygems.org/specification-reference/)
+file like described in [previous section](#adding-this-librarygem-as-a-runtime-dependency-to-other-librariesgems).
+
+Then add gem definition for [`com-common`](https://github.com/com-rb/com-common)
+to your library's [`Gemfile`](http://bundler.io/gemfile.html) with
+[`:path`](http://bundler.io/gemfile.html) parameter which points to root directory
+of your local copy of [`com-common`](https://github.com/com-rb/com-common).
+
+If we assume that you have follow directory structure of git repositories:
+
+```
+~
+|- projects
+   |- com-common
+   |- your-library
+```
+
+Then you have to add to your `Gemfile` something like follows:
+
+```ruby
+gem "com-common",
+  path: "../com-common"
+
+```
+
+After all run [`bundle install`](http://bundler.io/v1.12/man/bundle-install.1.html)
+to let your changes to make affect.
 
 ## Usage
 

@@ -55,9 +55,15 @@ $ bundle
 ### Adding this library(gem) as a runtime dependency to other libraries(gems)
 
 This is the most common use case of that library.
-Likely you already know how to do that, but for clarity sake.
+Likely you already know how to do that, but for clarity sake here is some tips and links.
 
-*__TODO:__ Describe how to add gemspec dependencies*
+Add follow line to your library's [`gemspec`](http://guides.rubygems.org/specification-reference/) file:
+
+```ruby
+spec.add_runtime_dependency 'com-common', '>= 0.1'
+```
+
+See also [official documentation on rubygems about adding runtime dependencies](http://guides.rubygems.org/specification-reference/#add_runtime_dependency).
 
 ### Development
 
@@ -67,7 +73,7 @@ Likely you already know how to do that, but for clarity sake.
 
 ### Library's interactive prompt
 
-To experiment with that code, run [`bin/console`](bin/console) for an interactive prompt.
+To experiment with that code, run [`bin/console`](bin/console) for an interactive prompt from project's root directory.
 
 ## Documentation
 

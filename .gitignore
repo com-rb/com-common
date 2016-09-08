@@ -1,21 +1,28 @@
-*.gem
-*.rbc
-.bundle
 .config
-coverage
 InstalledFiles
-lib/bundler/man
-pkg
-rdoc
-spec/reports
 test/tmp
 test/version_tmp
 tmp
+
+# Build artifacts
+*.gem
+*.rbc
+pkg
+
+# Bundler
+.bundle
+/Gemfile.lock
+lib/bundler/man
 
 # YARD artifacts
 .yardoc
 _yardoc
 doc/
+rdoc
 
 # RSpec file to presist failures
 spec/examples.txt
+/spec/reports/
+
+# Tests coverage
+coverage

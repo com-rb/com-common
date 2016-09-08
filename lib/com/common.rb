@@ -5,7 +5,7 @@ require "com/common/version"
 
 # Purpose: namespace
 #
-# Namespace for common modules and classes or com-rb libraries.
+# Namespace for common modules and classes of com-rb libraries.
 module ::Com::Common
 end
 

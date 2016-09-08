@@ -1,28 +1,35 @@
-.config
-InstalledFiles
-test/tmp
-test/version_tmp
-tmp
+/.config
+/InstalledFiles
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+## Documentation cache and generated files:
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
+
+## Environment normalization:
+/.bundle/
+/vendor/bundle
+/lib/bundler/man/
+
+# for a library or gem, you might want to ignore these files since the code is
+# intended to run in multiple environments; otherwise, check them in:
+Gemfile.lock
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
 
 # Build artifacts
 *.gem
 *.rbc
-pkg
-
-# Bundler
-.bundle
-/Gemfile.lock
-lib/bundler/man
-
-# YARD artifacts
-.yardoc
-_yardoc
-doc/
-rdoc
+/pkg/
 
 # RSpec file to presist failures
-spec/examples.txt
+/spec/examples.txt
 /spec/reports/
 
 # Tests coverage
-coverage
+/coverage/

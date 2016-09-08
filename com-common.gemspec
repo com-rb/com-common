@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
 
   spec.summary  = %q{com-rb common library classes.}
   spec.homepage = "https://github.com/com-rb/com-common"
-  spec.license  = "MIT"
+  spec.license  = "GNU GPL Version 3"
 
   spec.required_ruby_version = "~> 2.3.1"
   spec.files                 = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

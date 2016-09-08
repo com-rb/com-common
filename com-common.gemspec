@@ -7,14 +7,14 @@ require "com/common/version"
 
 
 Gem::Specification.new do |spec|
-  spec.name          = "com-common"
-  spec.version       = ::Com::Common::VERSION
-  spec.authors       = ["Zeke Fast"]
-  spec.email         = ["zekefast@gmail.com"]
+  spec.name    = "com-common"
+  spec.version = ::Com::Common::VERSION
+  spec.authors = ["Zeke Fast"]
+  spec.email   = ["zekefast@gmail.com"]
 
-  spec.summary       = %q{com-rb common library classes.}
-  spec.homepage      = "https://github.com/com-rb/com-common"
-  spec.license       = "MIT"
+  spec.summary  = %q{com-rb common library classes.}
+  spec.homepage = "https://github.com/com-rb/com-common"
+  spec.license  = "MIT"
 
   spec.required_ruby_version = "~> 2.3.1"
   spec.files                 = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

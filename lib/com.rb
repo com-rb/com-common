@@ -10,5 +10,3 @@ end
 require "com/error"
 require "com/standard_error"
 require "com/abstract_method_error"
-
-require "com/common"

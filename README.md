@@ -117,9 +117,10 @@ Most of modules are intended for tagging exceptions raised
 from [com-rb libraries](https://github.com/com-rb).
 
 * [`::Com::StandartError`](#comstandarderror)
+  * [`::Com::Common::StandardError`](#comcommonstandarderror)
 * [`::Com::Error`](#comerror)
- * [`::Com::Common::Error`](#comcommonerror)
- * [`::Com::AbstractMethodError`](#comabstractmethoderror)
+  * [`::Com::Common::Error`](#comcommonerror)
+  * [`::Com::AbstractMethodError`](#comabstractmethoderror)
 
 #### `::Com::StandardError`
 
@@ -132,6 +133,12 @@ provided by "abstract" classes or modules, etc.
 In most cases you can suppose that errors which include this module would be
 catched on compilation if [Ruby](https://www.ruby-lang.org/)
 would be [statically typed language](https://en.wikipedia.org/wiki/Type_system#Static_type_checking).
+
+#### `::Com::Common::StandardError`
+
+The module [`::Com::Common::StandardError`](lib/com/common/standard_error.rb)
+supposed to be mixed into all exceptions of [`::StandardError`](http://ruby-doc.org/core-2.3.1/StandardError.html)
+type from [`::Com::Common`](lib/com/common.rb) namespace.
 
 #### `::Com::Error`
 

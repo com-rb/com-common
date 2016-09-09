@@ -45,7 +45,7 @@ Assuming that, add follow to your `Gemfile`.
 gem "com-common", ">= 0.1.0"
 ```
 
-And then execute from the dirrectory with `Gemfile` (likely it should be your
+And then execute from the directory with `Gemfile` (likely it should be your
 application's root directory):
 
 ```bash

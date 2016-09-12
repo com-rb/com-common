@@ -12,6 +12,6 @@ module ::Com
     # Library version.
     #
     # @return [String] library version
-    VERSION = "0.2.1".freeze
+    VERSION = "0.2.1"
   end
 end
